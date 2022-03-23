@@ -25,8 +25,8 @@ Now cipher text will be shared over the established connection so that unauthori
 Data will be now decrypted using private key 'd' which only server has it so only authorized user can decrypt(extract) the data to human readable form.
 Formula for decryption goes, Plaintext=(Ciphertext^d)MOD n.
 # TIPS
-RSA works on descret log problem that makes brute force attack very difficult.
-Use two very large prime numbers as thee security of your message and your system totally depends on n.
+RSA's security rely on discrete log problem that makes brute force attack very difficult.
+Use two very large prime numbers as the security of your message and your system totally depends on n.
 Larger the prime better the security.
 # REFERENCE
 https://simple.wikipedia.org/wiki/RSA_algorithm#:~:text=RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman,can%20be%20given%20to%20anyone.
